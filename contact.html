@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUBTK</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+
+    <!--part one start-->
+    <!--for header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/download.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="department.html">DEPARTMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+					<li><a href="reg.php">ONLINE REGISTRATION</a></li>
+                </ul>
+
+
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>CONTACT US</h1>
+
+    </section>
+    <!--end header-->
+        <!--part one end-->
+        
+    <!--part two start-->
+          <section class="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.467882953947!2d89.5499698142785!3d22.822172929516448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9008870bfd93%3A0xf684d314e4b6e473!2sNorthern%20University%20of%20Business%20and%20Technology%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1630762083916!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </section>
+
+    <!--part two end-->
+     <!--part three start-->
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fas fa-home"></i>
+                <span>
+                    <h5>Shib Bari Circle, Sonadanga, Khulna-9100</h5>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>
+                    <h5>041-813844, Ext. 104</h5>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-mobile"></i>
+                <span>
+                    <h5>01755 514 662, 01755 514 663</h5>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <span>
+                    <h5>info@nubtkhulna.ac.bd</h5>
+                </span>
+            </div>
+            </div>
+           
+            <div class="contact-col">
+                <h3>Send Your Message</h3>
+                <form>
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <input type="text" placeholder="Enter Phone Number" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="for-text-btn for-visible">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+          <!--part three end-->
+     <!--part five start-->
+
+     <section class="action">
+        <h1>Enroll For More Information</h1>
+        <a href="#" class="for-text-btn">CONTACT US</a>
+
+    </section>
+    <!--part five end-->
+           <!--part six start-->
+           <section class="footer"> 
+               <h4>About Us</h4>
+               <p>Nonumy tempor sanctus diam amet tempor magna, dolor gubergren nonumy consetetur est clita no. Sit ut dolores <br>dolor sadipscing. Justo tempor eos sadipscing sanctus amet justo dolore dolore, ipsum sea.</p>
+            <div class="icons">
+                <i class="fab fa-2x fa-facebook-square"></i>
+                <i class="fab fa-2x fa-instagram-square"></i>
+                <i class="fab fa-2x fa-twitter-square"></i>
+                <i class="fab fa-2x fa-linkedin"></i>
+            </div>
+            <p>Made by <i style="color: #c213c2;" class="far fa-lg fa-registered"></i> SADIA</p>
+           </section>
+           <!--part six end-->
+
+    <!--Js For Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+
+    </script>
+</body>
+</html>
